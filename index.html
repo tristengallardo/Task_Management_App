@@ -8,23 +8,27 @@
     <script src="javascript.js" defer></script>
 </head>
 <body>
+
+    <div id="entire-section">
     <h1>Task Management App</h1>
     
-    <div>
-    <input type="text" id="taskName">
+    <div id="add-task">
+    
     <label for="taskName">Task Name</label>
+    <input type="text" id="taskName">
 
-    <input type="text" id="taskCategory">
     <label for="taskCategory">Category</label>
-
-    <input type="date" id="taskDeadline">
+    <input type="text" id="taskCategory">
+    
     <label for="taskDeadline">Deadline</label>
+    <input type="date" id="taskDeadline">
+    
 
     <select id="taskStatus">
     <option  value="In Progress">In Progress</option>
     <option value="Completed">Completed</option>
     </select>    
-    <button id="addTask" type="button">Add Task</button>
+    <button id="addTaskButton" type="button">Add Task</button>
 </div>
 
 <div id="filterSection">
@@ -37,7 +41,7 @@
         <option value="Overdue">Overdue</option>
     </select>
 </div>
-
 <ul id="taskList"></ul>
+</div>
 </body>
 </html>
