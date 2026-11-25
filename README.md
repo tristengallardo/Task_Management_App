@@ -3,9 +3,13 @@ This task management app allows for users to add tasks with deadlines, assign ca
 
 In order to work application :
                               -First: Enter a task
+
                               -Second: Enter a category
+
                               -Third: Select a deadline
+
                               -Fourth: Click add task to add task to list
+                              
                               -Fifth: Update task's status depending on progress
 
 
