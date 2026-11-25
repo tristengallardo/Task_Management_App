@@ -1,0 +1,76 @@
+body{
+    background-color: lightblue;
+}
+
+body div{
+    background-color: white;
+    
+}
+
+#entire-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 6px
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#add-task {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#taskName,
+#taskCategory,
+#taskDeadline,
+#taskStatus,
+#taskFilter {
+    padding: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    
+}
+
+button {
+    padding: 8px 10px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #69b9ee;
+}
+
+#filterSection {
+
+    text-align: center;
+}
+
+#taskList {
+    padding: 0px;
+    list-style: none;
+}
+
+#taskList li {
+    background-color: rgb(230, 230, 230);
+    padding: 1px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 5px solid blue;
+    
+}
+
+#taskList p {
+    font-weight: bold;
+}
+
